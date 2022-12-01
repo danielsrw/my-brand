@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/solid.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/app.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/blog.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/blog-show.css">
+	<title>DVNIELS - Blog</title>
+</head>
+<body>
+
+	<div class='app'>
+		<nav class="app__navbar">
+            <div class="app__navbar-logo">
+                 <a href="index.html">
+                    <img src=assets/img/logo.png alt="logo" />
+                </a>
+            </div>
+            <ul class="app__navbar-links">
+                <li class="app__flex p-text" key='Home'>
+                    <div class="separator"></div>
+                    <a href='index.html'>Home</a>
+                </li>
+                <li class="app__flex p-text" key='About'>
+                    <div class="separator"></div>
+                    <a href='about.html'>About</a>
+                </li>
+                <li class="app__flex p-text" key='blog'>
+                    <div class="separator"></div>
+                    <a href='blog.html'>Blog</a>
+                </li>
+                <li class="app__flex p-text" key='Work'>
+                    <div class="separator"></div>
+                    <a href='index.html#work'>Work</a>
+                </li>
+                <li class="app__flex p-text" key='Skills'>
+                    <div class="separator"></div>
+                    <a href='index.html#skills'>Skills</a>
+                </li>
+                <li class="app__flex p-text" key='Contact'>
+                    <div class="separator"></div>
+                    <a href='contact.html'>Contact</a>
+                </li>
+                <li class="app__flex p-text" key='signin'>
+                    <div class="separator"></div>
+                    <a href='signin.html'>Sign In</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="app__header app__flex" id="home">
+                
+            </div>
+        	<div class="app__about app__whitebg" id="about">
+                <h2 class="head-text">
+                    Blog Title here
+                </h2>
+
+                <div class="app__profiles">
+                    <div class="app__blog-item">
+                        <img src='./assets/img/blog-1.png' alt='Web Development' style="width: 80%;" />
+                    </div>
+                </div>
+                
+                <div class="c__author">
+                    <div class="wrapper-flex">
+                        <div class="profile-wrapper">
+                            <img src="./assets/img/author.png" alt="Julia Walker" width="50">
+                        </div>
+                        <div class="wrapper">
+                            <a href="#" class="h4">Julia Walker</a>
+                            <p class="text-sm">
+                                <time datetime="2022-01-17">Jan 17, 2022</time>
+                                <span class="separator"></span>
+                                <ion-icon name="time-outline"></ion-icon>
+                                <time datetime="PT3M">3 min</time>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="app__profiles">
+                    <div class="app__profile-item" style="width: 800px;">
+                        <p class="p-text" style="margin-top: 10px">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="comment-container">
+                    <h3 class="comment-container-title">Comments</h3>
+                    <div class="comments">
+                    </div>
+                    <div class="comment comment-new flex items-start justify-start">
+                        <img class="comment-avatar" src="https://www.pngall.com/wp-content/uploads/5/Profile-Avatar-PNG.png" />
+                        <div class="flex-1">
+                            <form action="#" class="comment-form">
+                                <input type="text" placeholder="Name" class="comment-input-1">
+                                <textarea placeholder="Add a comment" class="comment-input"></textarea>
+                                <input type="submit" class="comment-submit" value="Reply" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/fontawesome.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/solid.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/brands.min.js"></script>
+    <script src="./assets/js/blog-show.js"></script>
+</body>
+</html>

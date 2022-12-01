@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/solid.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/app.css">
+	<title>DVNIELS - Contact</title>
+</head>
+<body>
+
+	<div class='app'>
+		<!-- Navbar -->
+		<nav class="app__navbar">
+            <div class="app__navbar-logo">
+                 <a href="index.html">
+                    <img src=assets/img/logo.png alt="logo" />
+                </a>
+            </div>
+            <ul class="app__navbar-links">
+                <li class="app__flex p-text" key='Home'>
+                    <div class="separator"></div>
+                    <a href='index.html'>Home</a>
+                </li>
+                <li class="app__flex p-text" key='About'>
+                    <div class="separator"></div>
+                    <a href='about.html'>About</a>
+                </li>
+                <li class="app__flex p-text" key='blog'>
+                    <div class="separator"></div>
+                    <a href='blog.html'>Blog</a>
+                </li>
+                <li class="app__flex p-text" key='Work'>
+                    <div class="separator"></div>
+                    <a href='index.html#work'>Work</a>
+                </li>
+                <li class="app__flex p-text" key='Skills'>
+                    <div class="separator"></div>
+                    <a href='index.html#skills'>Skills</a>
+                </li>
+                <li class="app__flex p-text" key='Contact'>
+                    <div class="separator"></div>
+                    <a href='contact.html'>Contact</a>
+                </li>
+                <li class="app__flex p-text" key='signin'>
+                    <div class="separator"></div>
+                    <a href='signin.html'>Sign In</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="app__header app__flex" id="home">
+        	
+	    </div>
+
+        <main>
+            <div class="app__footer app__whitebg" id="contact">
+                <h2 class="head-text">Take coffee & chat with me</h2>
+
+                <div class="app__footer-cards">
+                    <div class="app__footer-card ">
+                        <img src='assets/img/email.png' alt="email" />
+                        <a href="mailto:danielsrwanda@gmail.com" class="p-text">danielsrwanda@gmail.com</a>
+                    </div>
+                    <div class="app__footer-card">
+                        <img src='assets/img/mobile.png' alt="phone" />
+                        <a href="tel:+250781862349" class="p-text">+250 781 862 349</a>
+                    </div>
+                </div>
+
+                <form id="myForm" onsubmit="return ajaxpost()">
+                    <div class="app__footer-form app__flex">
+                        <div class="app__flex">
+                            <input class="p-text" type="text" placeholder="Your Name" id="username" />
+                        </div>
+                        <div class="app__flex">
+                            <input class="p-text" type="email" placeholder="Your Email" id="email" />
+                        </div>
+                        <div>
+                            <textarea class="p-text" placeholder="Your Message" id="message"></textarea>
+                        </div>
+                        <button type="submit" id="formSubmit" class="p-text" id="add">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/fontawesome.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/solid.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/brands.min.js"></script>
+    <script src="./assets/js/contact.js"></script>
+
+</body>
+</html>

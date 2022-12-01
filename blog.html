@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/solid.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/app.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/blog.css">
+	<title>DVNIELS - Blog</title>
+</head>
+<body>
+
+	<div class='app'>
+		<!-- Navbar -->
+		<nav class="app__navbar">
+            <div class="app__navbar-logo">
+                 <a href="index.html">
+                    <img src=assets/img/logo.png alt="logo" />
+                </a>
+            </div>
+            <ul class="app__navbar-links">
+                <li class="app__flex p-text" key='Home'>
+                    <div class="separator"></div>
+                    <a href='index.html'>Home</a>
+                </li>
+                <li class="app__flex p-text" key='About'>
+                    <div class="separator"></div>
+                    <a href='about.html'>About</a>
+                </li>
+                <li class="app__flex p-text" key='blog'>
+                    <div class="separator"></div>
+                    <a href='blog.html'>Blog</a>
+                </li>
+                <li class="app__flex p-text" key='Work'>
+                    <div class="separator"></div>
+                    <a href='index.html#work'>Work</a>
+                </li>
+                <li class="app__flex p-text" key='Skills'>
+                    <div class="separator"></div>
+                    <a href='index.html#skills'>Skills</a>
+                </li>
+                <li class="app__flex p-text" key='Contact'>
+                    <div class="separator"></div>
+                    <a href='contact.html'>Contact</a>
+                </li>
+                <li class="app__flex p-text" key='signin'>
+                    <div class="separator"></div>
+                    <a href='signin.html'>Sign In</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+        	<div class="main">
+        		<div class="container">
+        			<div class="blog">
+        				<h2 class="h2">Latest Blog Post</h2>
+
+        				<div class="blog-card-group">
+        					<div class="blog-card">
+				              	<div class="blog-card-banner">
+				                	<img src="./assets/img/blog-1.png" alt="Building microservices with Dropwizard, MongoDB & Docker" width="250" class="blog-banner-img">
+				              	</div>
+
+				              	<div class="blog-content-wrapper">
+
+					                <button class="blog-topic text-tiny">Database</button>
+
+					                <h3>
+					                  	<a href="blog-show.html" class="h3">
+					                    	Building microservices with Dropwizard, MongoDB & Docker
+					                  	</a>
+					                </h3>
+
+					                <p class="blog-text">
+					                  	This NoSQL database oriented to documents (by documents like JSON) combines some of the features from relational databases, easy to use and the multi-platform is the best option for scale up and have fault tolerance, load balancing, map reduce, etc.
+					                </p>
+
+					                <div class="wrapper-flex">
+
+					                  	<div class="profile-wrapper">
+					                    	<img src="./assets/img/author.png" alt="Julia Walker" width="50">
+					                  	</div>
+
+					                  	<div class="wrapper">
+					                    	<a href="#" class="h4">Julia Walker</a>
+
+					                    	<p class="text-sm">
+					                      		<time datetime="2022-01-17">Jan 17, 2022</time>
+					                      		<span class="separator"></span>
+					                      		<ion-icon name="time-outline"></ion-icon>
+					                      		<time datetime="PT3M">3 min</time>
+					                    	</p>
+					                  	</div>
+					                </div>
+				              	</div>
+				            </div>
+        				</div>
+
+        				<button class="btn load-more">Load More</button>
+        			</div>
+
+        			<div class="aside">
+
+			          	<div class="topics">
+				            <h2 class="h2">Topics</h2>
+				            <a href="#" class="topic-btn">
+				              	<div class="icon-box">
+				                	<i class="fa fa-server"></i>
+				              	</div>
+				              <p>Database</p>
+				            </a>
+				            <a href="#" class="topic-btn">
+				              	<div class="icon-box">
+				                	<i class="fa fa-accessibility"></i>
+				              	</div>
+				              <p>Accessibility</p>
+				            </a>
+				            <a href="#" class="topic-btn">
+				              	<div class="icon-box">
+				                	<i class="fa fa-rocket"></i>
+				              	</div>
+				              <p>Web Performance</p>
+				            </a>
+			          	</div>
+
+			          	<div class="tags">
+				            <h2 class="h2">Tags</h2>
+				            <div class="wrapper">
+								<button class="hashtag">#mongodb</button>
+								<button class="hashtag">#nodejs</button>
+								<button class="hashtag">#a11y</button>
+								<button class="hashtag">#mobility</button>
+								<button class="hashtag">#inclusion</button>
+								<button class="hashtag">#webperf</button>
+								<button class="hashtag">#optimize</button>
+								<button class="hashtag">#performance</button>
+				            </div>
+			          	</div>
+
+			          	<div class="contact">
+				            <h2 class="h2">Let's Talk</h2>
+				            <div class="wrapper">
+				              	<p>
+				                	Do you want to learn more about how I can help your company overcome problems? Let us have a conversation.
+				              	</p>
+				              	<ul class="social-link">
+					                <li>
+					                  	<a href="#" class="icon-box discord">
+					                  		<i class="fab fa-discord"></i>
+					                  	</a>
+					                </li>
+					                <li>
+					                  	<a href="#" class="icon-box twitter">
+					                  		<i class="fab fa-twitter"></i>
+					                  	</a>
+					                </li>
+					                <li>
+					                  	<a href="#" class="icon-box facebook">
+					                  		<i class="fab fa-facebook"></i>
+					                  	</a>
+					                </li>
+				              	</ul>
+				            </div>
+			          	</div>
+
+			          	<div class="newsletter">
+				            <h2 class="h2">Newsletter</h2>
+				            <div class="wrapper">
+				              	<p>
+				                	Subscribe to our newsletter to be among the first to keep up with the latest updates.
+				              	</p>
+				              	<form action="#">
+					                <input type="email" name="email" placeholder="Email Address" required>
+					                <button type="submit" class="btn btn-primary">Subscribe</button>
+				              	</form>
+				            </div>
+			          	</div>
+			        </div>
+        		</div>
+        	</div>
+        </main>
+    </div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/fontawesome.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/solid.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/brands.min.js"></script>
+
+</body>
+</html>
