@@ -15,7 +15,7 @@ function blog() {
                         <button class="blog-topic text-tiny">${details[i].category}</button>
 
                         <h3>
-                            <a href='blog.html' class="h3">
+                            <a href='blog-show.html' class="h3">
                                 ${details[i].title}
                             </a>
                         </h3>
