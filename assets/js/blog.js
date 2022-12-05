@@ -15,9 +15,9 @@ function blog() {
                         <button class="blog-topic text-tiny">${details[i].category}</button>
 
                         <h3>
-                            <a href="blog-show.html" class="h3">
+                            <h1 class="h3" id='showBlog'>
                                 ${details[i].title}
-                            </a>
+                            </h1>
                         </h3>
 
                         <p class="blog-text">
@@ -64,3 +64,9 @@ function getData(){
         setData();
     };
 };
+
+document.getElementById("showBlog").onclick = function() {myFunction()};
+
+function myFunction() {
+    document.getElementById("showBlog").innerHTML = "YOU CLICKED ME!";
+}
